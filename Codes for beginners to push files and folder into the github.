@@ -3,6 +3,6 @@ STEPS ARE:-
 git init
 git add .
 git commit -m "commit message"   /** inside the double quote you could write anything it is just to let the computer know that we are verifying it **/
-git branch -M main (OR) git branch -M master   /** look whether the branch is main or master **/
+git branch -M main (OR) git branch -M master   /** look whether the branch is main or master (you can see the master or main at git bash **/
 git remote add origin <github link>   /** the link will be pasted inside <> without that <> sign (one cam get the link above the repository name) **/
 git push -u origin main (OR) git push -u origin master
