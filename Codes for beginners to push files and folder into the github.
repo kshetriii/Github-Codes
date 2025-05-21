@@ -1,5 +1,6 @@
 TO UPLOAD THE NEW FOLDER INTO THE GITHUB THAT CONTAINS MANY FOLDER WITHIN.
 STEPS ARE:-
+open the folder in git bash
 git init
 git add .
 git commit -m "commit message"   /** inside the double quote you could write anything it is just to let the computer know that we are verifying it **/
