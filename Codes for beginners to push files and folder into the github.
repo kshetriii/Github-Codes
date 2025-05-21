@@ -1,4 +1,5 @@
 TO UPLOAD THE NEW FOLDER INTO THE GITHUB THAT CONTAINS MANY FOLDER WITHIN.
+***************************************************************************
 STEPS ARE:-
 (try to do in master only not main because git bash default inits in master branch)
 open the folder in git bash
@@ -18,3 +19,29 @@ change the default branch to master
 then go to view all branches one step back
 delete other (non necessary branches)
 DONE...
+
+
+
+TO COMMIT CHANGES INTO THE REPOSITORY ALREADY PUSHED.
+******************************************************
+git status (just to know what to do)
+git add .
+git commit -m "any message"
+git push origin main (OR) git push origin master (check in repository in github)
+
+IF this doesn't work and says to pull first then do this
+git pull origin main --rebase (OR) git pull origin master --rebase
+git push origin main (OR) git push origin master
+
+
+
+SOME OTHER IMP CODES.
+**********************
+To confirm which branch:-
+git branch
+
+To check the remote repository:-
+git remote -v
+
+
+
