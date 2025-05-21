@@ -1,5 +1,6 @@
 TO UPLOAD THE NEW FOLDER INTO THE GITHUB THAT CONTAINS MANY FOLDER WITHIN.
 STEPS ARE:-
+(try to do in master only not main because git bash default inits in master branch)
 open the folder in git bash
 git init
 git add .
@@ -7,3 +8,13 @@ git commit -m "commit message"   /** inside the double quote you could write any
 git branch -M main (OR) git branch -M master   /** look whether the branch is main or master (you can see the master or main at git bash **/
 git remote add origin <github link>   /** the link will be pasted inside <> without that <> sign (one cam get the link above the repository name) **/
 git push -u origin main (OR) git push -u origin master
+
+
+
+AFTER this
+open github select the respective repository
+go to settings
+change the default branch to master
+then go to view all branches one step back
+delete other (non necessary branches)
+DONE...
