@@ -43,5 +43,18 @@ git branch
 To check the remote repository:-
 git remote -v
 
+To see the status:-
+git status
+
+Pro Tips.
+**********
+git status -s ---> short, clean, excutive summary
+
+git diff ---> see what you actually brokee
+
+git log --oneline ---> shows the commit history
+
+
+
 
 
