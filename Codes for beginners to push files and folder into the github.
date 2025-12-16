@@ -16,6 +16,7 @@ AFTER this
 open github select the respective repository
 go to settings
 change the default branch to master
+click on master branch after you see it
 then go to view all branches one step back
 delete other (non necessary branches)
 DONE...
